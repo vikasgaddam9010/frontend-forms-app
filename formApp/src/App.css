@@ -1,0 +1,43 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.heading-name {
+  color: blue;
+  text-align: center;
+}
+label {
+  margin-top: 15px;
+  color: rgb(51, 52, 116);
+}
+.mt {
+  margin-top: 10px;
+}
+.title-input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  max-width: 280px;
+}
+
+.btn {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
