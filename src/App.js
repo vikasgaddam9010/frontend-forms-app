@@ -57,6 +57,22 @@ const App = () => {
       console.log('Thumbnail URL:', thumbnailUrl)
       console.log('Video URL:', videoUrl)
 
+      const details = {
+        title,
+        description,
+        thumbnailUrl,
+        videoUrl,
+      }
+
+      const url = "https://vikasbabuauasxnjscpxtwms.drops.nxtwave.tech//upload-data/"
+      const options = {
+        method: "POST",
+        body : details
+      }
+
+      const resDb = await fetch(url, options)
+      console.log(resDb)
+
       alert('Files uploaded successfully!')
     } catch (error) {
       console.error(error)
