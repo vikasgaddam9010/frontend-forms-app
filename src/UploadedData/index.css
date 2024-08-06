@@ -1,0 +1,40 @@
+.img {
+  height: 250px;
+  width: 450px;
+  border-radius: 15px;
+}
+.container-of-ul {
+  display: flex;
+  justify-content: center;
+}
+.ul {
+  width: 70%;
+  list-style-type: none;
+  padding: 20px;
+}
+.d-flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.link {
+  width: 70%;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.para {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px;
+}
+.title {
+  font-weight: 600;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}

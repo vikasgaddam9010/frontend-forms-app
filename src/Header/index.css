@@ -1,0 +1,17 @@
+.header-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.heaeders-text {
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 3px 5px;
+  text-align: center;
+  width: 140px;
+  margin: 15px;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
