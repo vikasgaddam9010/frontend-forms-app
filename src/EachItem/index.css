@@ -1,0 +1,8 @@
+.cont {
+  width: 100%;
+}
+.d-flex {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
