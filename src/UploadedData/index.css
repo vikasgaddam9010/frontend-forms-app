@@ -1,6 +1,6 @@
 .img {
-  height: 250px;
-  width: 450px;
+  height: 200px;
+  width: 400px;
   border-radius: 15px;
 }
 .container-of-ul {
@@ -37,4 +37,20 @@
   height: 50px;
   width: 50px;
   cursor: pointer;
+}
+@media (max-width: 576px) {
+  .ul{
+    width: 100%;
+  }
+  .container-of-ul{
+    max-width: 500px;
+  }
+  .img {
+    width: 200px;
+  }
+  .icon {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
 }

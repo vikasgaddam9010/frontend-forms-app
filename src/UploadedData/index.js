@@ -16,7 +16,6 @@ const UploadedData = () => {
 
   const getDataFrom = async (url, options) => {
     const res = await fetch(url, options)
-    //console.log(res)
 
     const jsonresData = await res.json()
 
@@ -24,7 +23,7 @@ const UploadedData = () => {
   }
 
   const doDelOperation = id => {
-    console.log(id)
+
     const url = `https://node-upload-user-data.onrender.com/del/${id}`
     const options = {method: 'DELETE'}
     getDataFrom(url, options)
