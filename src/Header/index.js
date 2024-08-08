@@ -9,7 +9,7 @@ const Header = () => (
         Home
       </Link>
       <Link className='heaeders-text' to='/uploaded-data'>
-        Uploaded Dtate
+        Uploaded Data
       </Link>
     </div>
     <hr />
